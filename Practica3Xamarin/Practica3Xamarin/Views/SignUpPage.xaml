@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Practica3Xamarin.SignUpPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <AbsoluteLayout x:Name="Mylayout" Margin="5,0" IsVisible="True">
+
+                <FlexLayout IsVisible="True" JustifyContent="SpaceEvenly"  Direction="Column" AlignContent="Center" Margin="30,0,30,0" >
+                    <Image Source="AALogoIntec.png" HeightRequest="120" WidthRequest="120" FlexLayout.AlignSelf="Center" BackgroundColor="Transparent" />
+
+                    <Label Text="{Binding Message}" IsVisible="False" TextColor="Red"/>
+
+                    <Entry x:Name="NameEntry" Text="{Binding LoginModel.Name}" Placeholder="Name" FontSize="Medium" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand"  TextColor="Black" />
+                    <Label x:Name="LoginModel_NameError" IsVisible="False" TextColor="Red" />
+
+
+                    <Entry x:Name="userNameEntry" Text="{Binding LoginModel.Username}"  Placeholder="Email ID" FontSize="Medium" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand"  TextColor="Black" />
+                    <Label x:Name="LoginModel_UsernameError" IsVisible="False" TextColor="Red" />
+
+                    <Entry x:Name="passwordEntry"  Text="{Binding LoginModel.ConfirmPassword}" IsPassword="True" Placeholder="Password" FontSize="Medium" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand"  TextColor="Black" />
+                    <Label x:Name="LoginModel_PasswordError" IsVisible="False" TextColor="Red" />
+
+                    <Entry x:Name="ConfirmpasswordEntry" Text="{Binding LoginModel.Password}" IsPassword="True" Placeholder="Confirm Password" FontSize="Medium" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand"  TextColor="Black" />
+                    <Label x:Name="LoginModel_ConfirmPasswordError" IsVisible="False" TextColor="Red" />
+
+                    <Button x:Name="Register_ButtonClicked" Command="{Binding SignUpCommand}" Clicked="Register_ButtonClicked"  FontSize="Medium" TextColor="White" BorderColor="PaleVioletRed" BackgroundColor="red"  CornerRadius="5" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand" Text="Register"/>
+
+                </FlexLayout>
+            </AbsoluteLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

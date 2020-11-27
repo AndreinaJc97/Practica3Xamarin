@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "WQ7R+tbbfDQcc4pLj0LjrCpzHP94TGw+FjXhcVMOJjbWedWW1naiMjVOjvLg9ibJLGJf0rNDKPPgvUOK3+dlgQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\andre\\source\\repos\\Practica3Xamarin\\Practica3Xamarin\\Practica3Xamarin.iOS\\Practica3Xamarin.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\andre\\.nuget\\packages\\sqlite.net-pcl\\3.1.1\\sqlite.net-pcl.3.1.1.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\sqlite.net.core-pcl\\3.1.1\\sqlite.net.core-pcl.3.1.1.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,16 @@
+C:\Users\andre\source\repos\Practica3Xamarin\Practica3Xamarin\Practica3Xamarin\bin\Debug\netstandard2.0\Practica3Xamarin.deps.json
+C:\Users\andre\source\repos\Practica3Xamarin\Practica3Xamarin\Practica3Xamarin\bin\Debug\netstandard2.0\Practica3Xamarin.dll
+C:\Users\andre\source\repos\Practica3Xamarin\Practica3Xamarin\Practica3Xamarin\bin\Debug\netstandard2.0\ref\Practica3Xamarin.dll
+C:\Users\andre\source\repos\Practica3Xamarin\Practica3Xamarin\Practica3Xamarin\bin\Debug\netstandard2.0\Practica3Xamarin.pdb
+C:\Users\andre\source\repos\Practica3Xamarin\Practica3Xamarin\Practica3Xamarin\obj\Debug\netstandard2.0\Practica3Xamarin.csprojAssemblyReference.cache
+C:\Users\andre\source\repos\Practica3Xamarin\Practica3Xamarin\Practica3Xamarin\obj\Debug\netstandard2.0\Views\App.xaml.g.cs
+C:\Users\andre\source\repos\Practica3Xamarin\Practica3Xamarin\Practica3Xamarin\obj\Debug\netstandard2.0\Views\HomePage.xaml.g.cs
+C:\Users\andre\source\repos\Practica3Xamarin\Practica3Xamarin\Practica3Xamarin\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\andre\source\repos\Practica3Xamarin\Practica3Xamarin\Practica3Xamarin\obj\Debug\netstandard2.0\Views\SignUpPage.xaml.g.cs
+C:\Users\andre\source\repos\Practica3Xamarin\Practica3Xamarin\Practica3Xamarin\obj\Debug\netstandard2.0\Practica3Xamarin.AssemblyInfoInputs.cache
+C:\Users\andre\source\repos\Practica3Xamarin\Practica3Xamarin\Practica3Xamarin\obj\Debug\netstandard2.0\Practica3Xamarin.AssemblyInfo.cs
+C:\Users\andre\source\repos\Practica3Xamarin\Practica3Xamarin\Practica3Xamarin\obj\Debug\netstandard2.0\Practica3Xamarin.csproj.CoreCompileInputs.cache
+C:\Users\andre\source\repos\Practica3Xamarin\Practica3Xamarin\Practica3Xamarin\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\andre\source\repos\Practica3Xamarin\Practica3Xamarin\Practica3Xamarin\obj\Debug\netstandard2.0\Practica3Xamarin.dll
+C:\Users\andre\source\repos\Practica3Xamarin\Practica3Xamarin\Practica3Xamarin\obj\Debug\netstandard2.0\ref\Practica3Xamarin.dll
+C:\Users\andre\source\repos\Practica3Xamarin\Practica3Xamarin\Practica3Xamarin\obj\Debug\netstandard2.0\Practica3Xamarin.pdb
