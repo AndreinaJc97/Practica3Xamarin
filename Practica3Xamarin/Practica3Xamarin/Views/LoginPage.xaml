@@ -15,7 +15,7 @@
 
                     <Entry x:Name="passwordEntry" Text="{Binding LoginModel.Password}" IsPassword="True" Placeholder="Password" FontSize="Medium" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand"  TextColor="Black" />
                     <Label x:Name="LoginModel_PasswordError" IsVisible="False" TextColor="Red" />
-                    
+
                     <Button Command="{Binding LoginInCommand}" FontSize="Medium" TextColor="White" BorderColor="PaleVioletRed" BackgroundColor="red"  CornerRadius="5" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand" Text="log in"/>
                     <Button x:Name="SignUp" Clicked="RegisterValidation_ButtonClicked"  Text="Register" TextColor="Red" FontSize="15" BackgroundColor="Transparent" FlexLayout.AlignSelf="Center"/>
 

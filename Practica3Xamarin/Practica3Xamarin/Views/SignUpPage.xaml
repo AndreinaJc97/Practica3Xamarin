@@ -11,20 +11,20 @@
 
                     <Label Text="{Binding Message}" IsVisible="False" TextColor="Red"/>
 
-                    <Entry x:Name="NameEntry" Text="{Binding LoginModel.Name}" Placeholder="Name" FontSize="Medium" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand"  TextColor="Black" />
-                    <Label x:Name="LoginModel_NameError" IsVisible="False" TextColor="Red" />
+                    <Entry x:Name="NameEntry" Text="{Binding SignUpModel.Name}" Placeholder="Name" FontSize="Medium" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand"  TextColor="Black" />
+                    <Label x:Name="SignUpModel_NameError" IsVisible="False" TextColor="Red" />
 
 
-                    <Entry x:Name="userNameEntry" Text="{Binding LoginModel.Username}"  Placeholder="Email ID" FontSize="Medium" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand"  TextColor="Black" />
-                    <Label x:Name="LoginModel_UsernameError" IsVisible="False" TextColor="Red" />
+                    <Entry x:Name="userNameEntry" Text="{Binding SignUpModel.Username}"  Placeholder="Email ID" FontSize="Medium" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand"  TextColor="Black" />
+                    <Label x:Name="SignUpModel_UsernameError" IsVisible="False" TextColor="Red" />
 
-                    <Entry x:Name="passwordEntry"  Text="{Binding LoginModel.ConfirmPassword}" IsPassword="True" Placeholder="Password" FontSize="Medium" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand"  TextColor="Black" />
-                    <Label x:Name="LoginModel_PasswordError" IsVisible="False" TextColor="Red" />
+                    <Entry x:Name="passwordEntry"  Text="{Binding SignUpModel.Password}" IsPassword="True" Placeholder="Password" FontSize="Medium" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand"  TextColor="Black" />
+                    <Label x:Name="SignUpModel_PasswordError" IsVisible="False" TextColor="Red" />
 
-                    <Entry x:Name="ConfirmpasswordEntry" Text="{Binding LoginModel.Password}" IsPassword="True" Placeholder="Confirm Password" FontSize="Medium" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand"  TextColor="Black" />
-                    <Label x:Name="LoginModel_ConfirmPasswordError" IsVisible="False" TextColor="Red" />
+                    <Entry x:Name="ConfirmpasswordEntry" Text="{Binding SignUpModel.ConfirmPassword}" IsPassword="True" Placeholder="Confirm Password" FontSize="Medium" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand"  TextColor="Black" />
+                    <Label x:Name="SignUpModel_ConfirmPasswordError" IsVisible="False" TextColor="Red" />
 
-                    <Button x:Name="Register_ButtonClicked" Command="{Binding SignUpCommand}" Clicked="Register_ButtonClicked"  FontSize="Medium" TextColor="White" BorderColor="PaleVioletRed" BackgroundColor="red"  CornerRadius="5" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand" Text="Register"/>
+                    <Button x:Name="Register_ButtonClicked" Command="{Binding SignCommand}" Clicked ="Register_ButtonClicked" FontSize="Medium" TextColor="White" BorderColor="PaleVioletRed" BackgroundColor="red"  CornerRadius="5" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand" Text="Register"/>
 
                 </FlexLayout>
             </AbsoluteLayout>

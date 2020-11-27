@@ -2,11 +2,25 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Practica3Xamarin.HomePage">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+    <ScrollView>
+        <Grid RowSpacing="10" ColumnSpacing="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition  Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Button BackgroundColor="#9C33FF" Grid.Row="0" Grid.Column="0" Text="{Binding BarAndHotelsOption.Title}" TextColor="White"  />
+            <Button BackgroundColor="#6DB8C5" Grid.Row="0" Grid.Column="1" Text="{Binding FineDining.Title}" TextColor="White" />
+            <Button BackgroundColor="#FFBC1F" Grid.Row="1" Grid.Column="0" Text="{Binding Cafes.Tile}" TextColor="White" />
+            <Button BackgroundColor="#50FFB1" Grid.Row="1" Grid.Column="1" Text="{Binding Nearby.Title}" TextColor="White" />
+            <Button BackgroundColor="#DE7FA7" Grid.Row="2" Grid.Column="0" Text="{Binding FastFoods.Tile}" TextColor="White" />
+            <Button BackgroundColor="#F4562A" Grid.Row="2" Grid.Column="1" Text="{Binding FeatureFoods.Tile}" TextColor="White" />
+        </Grid>
+    </ScrollView>
 </ContentPage>

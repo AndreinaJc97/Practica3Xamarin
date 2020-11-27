@@ -21,7 +21,7 @@ namespace Practica3Xamarin
 
         private async void LoginValidation_ButtonClicked(object sender, EventArgs e)
         {
-            await App.Current.MainPage.Navigation.PushAsync(new HomePage());
+            await App.Current.MainPage.DisplayAlert("Okay", "Bienvenido!", "OK");
 
         }
 
